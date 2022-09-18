@@ -27,7 +27,7 @@ jobs:
         python -m flake8
         # перейти в папку, содержащую manage.py
         cd infra_project/
-        # запустить написанные разработчиком тесты
+        # запустить написанные разработчиком тест
         python manage.py test
 
   build_and_push_to_docker_hub:
